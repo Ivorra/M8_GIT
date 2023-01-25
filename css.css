@@ -6,7 +6,9 @@ table{
 /*table tr td{
     border: 0px solid;
 }*/
-
+body:hover{
+	background-color:red;
+}
 table th{ 
     border: 1px solid black;
     background-color: rgb(49, 49, 49);
