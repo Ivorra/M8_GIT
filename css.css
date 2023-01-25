@@ -8,6 +8,7 @@ table{
 }*/
 table:hover{
 	border: solid 10px grey;
+	border-radius: 10px;
 }
 table th{ 
     border: 1px solid black;
