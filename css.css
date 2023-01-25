@@ -1,0 +1,99 @@
+table{
+    width: 40%;
+    border: 5px grey solid;
+    border-collapse: collapse;
+}
+/*table tr td{
+    border: 0px solid;
+}*/
+
+table th{ 
+    border: 1px solid black;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgb(168, 168, 168);
+}
+table tr:nth-child(1) th:nth-child(1){ 
+   width: 25%;
+}
+table tr{
+    text-align: end;
+    background-color: rgb(221, 221, 221);
+}
+table tr:nth-child(3), table tr:nth-child(8){
+    border: 0px solid;
+}
+table tr:nth-child(3) td, table tr:nth-child(8) td, table tr:nth-child(13) th:nth-child(1){
+    padding-left: 10px;
+    text-align:left;
+    font-weight: bold;
+}
+table tr:nth-child(2n) td:nth-child(1n+2){
+    background-color: rgb(241, 241, 241);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+table tr:nth-child(2n+1) td:nth-child(1n+2){
+    background-color: rgb(209, 209, 209);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+table tr:nth-of-type(2), table tr:nth-child(2) td:nth-child(1n+2){ 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 4px rgb(124, 124, 124);
+    background-color: rgb(90, 90, 90);
+}
+table tr:nth-child(1n){
+    height: 30px;
+}
+table tr:nth-child(1n+3) td:nth-child(4){
+    background-color: rgb(202, 202, 202)
+}
+table tr:nth-child(2n+3) td:nth-child(4){
+    background-color: rgb(143, 143, 143);
+}
+table tr:nth-child(13) th:nth-child(1){
+    background-color: rgb(221, 221, 221);
+    border: none;
+    height: 30px;
+    text-align:left;
+    color: black;
+}
+table tr:nth-child(13) td:nth-child(1n){
+    color: white;
+    font-weight: bold;
+    background-color: rgb(68, 68, 68);
+    border-left-color: white;
+    border-right-color: white;
+}
+table tfoot {
+    height: 70px;
+}
+table tfoot td{
+    border-right: rgb(209, 209, 209) solid 1px;
+}
+table tfoot td:nth-child(1){
+    background-color: rgb(209, 209, 209);
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+table tfoot td:nth-child(2){
+    background-color: red;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+table tr:nth-child(1n+3):hover td:nth-child(1n+2){
+    background-color: rgb(155, 94, 94);
+    border-left-color: white;
+    border-right-color: white;
+}
+table tr:nth-child(1n+3) td:nth-child(1n+2){
+    width: 10%;
+}
