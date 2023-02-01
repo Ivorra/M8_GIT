@@ -12,12 +12,12 @@ table:hover{
 	border-radius: 10px;
 
 body:hover{
-	background-color:red;
+	background-color:yellow;
 }
 table th{ 
     border: 1px solid black;
     background-color: rgb(49, 49, 49);
-    color: black;
+    color: white;
     height: 50px;
     text-align: center;
     border: 2px solid rgb(168, 168, 168);
