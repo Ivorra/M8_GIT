@@ -6,9 +6,13 @@ table{
 /*table tr td{
     border: 0px solid;
 }*/
+
 table:hover{
 	border: solid 10px grey;
 	border-radius: 10px;
+
+body:hover{
+	background-color:yellow;
 }
 table th{ 
     border: 1px solid black;
